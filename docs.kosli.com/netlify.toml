@@ -17,7 +17,7 @@
 [context.branch-deploy]
   command = "HUGO_BASEURL=$DEPLOY_PRIME_URL hugo --printI18nWarnings --buildDrafts --enableGitInfo"
 
-[[context.production.plugins]]
-package = "netlify-plugin-checklinks"
-  [context.production.plugins.inputs]
-  skipPatterns = [".netlify.app"]
+# [[context.production.plugins]]
+# package = "netlify-plugin-checklinks"
+#   [context.production.plugins.inputs]
+#   skipPatterns = [".netlify.app"]
